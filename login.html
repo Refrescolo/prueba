@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>La Fábrica de Hamburguesas Artesanas</title>
+        <link rel="icon" href="..\imagenes/logo.jpg"> <!--añado el icono para que aparezca en las pestañas del navegador-->
+
+        <center>
+            <img src="..\imagenes/logo.jpg" alt="Workplace" usemap="#workmap">
+            <map name="..\imagenes/logo.jpg">
+                <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+                <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+                 <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+            </map>
+
+        </center>
+        
+
+
+    </head>
+
+    <body bgcolor="black" text="white"> 
+        <center>
+            <form action="ejemplo.php" method="get">
+                <p>E-mail: </p>
+                <input type="email" name="email" required>
+                <a href="https://support.google.com/accounts/answer/7682439?hl=es">
+                    <p>He olvidado mi e-mail</p>
+                </a>
+                <p>Contraseña: </p>
+                <input type="password" name="password" required>
+                <a href="https://support.google.com/accounts/answer/7682439?hl=es">
+                    <p>He olvidado mi contraseña</p>
+                </a>
+                <br>
+
+                <input type="submit" value="Enviar">
+
+                <br>
+                <br>
+
+                <style>
+                    
+                th, td {
+                    border:1px solid rgb(255, 255, 255);
+                  }
+                  </style>
+                <div style="margin-left: 60px; margin-right: 60px;">
+                <table style="width:100%">
+                    <tr>
+                      <th>Company</th>
+                      <th>Contact</th>
+                      <th>Country</th>
+                    </tr>
+                    <tr>
+                      <td>Alfreds Futterkiste</td>
+                      <td>Maria Anders</td>
+                      <td>Germany</td>
+                    </tr>
+                    <tr>
+                      <td>Centro comercial Moctezuma</td>
+                      <td>Francisco Chang</td>
+                      <td>Mexico</td>
+                    </tr>
+                  </table>
+                </div>
+            </form>
+
+        </center>
+        <div style="margin-left: 60px; margin-right: 60px;"><!--Añado margenes imaginarios de 60px en la parte izquierda de la página para que los textos no comiencen pegados a la parte izquierda.-->
+        <footer><!--Añado pie de página-->
+
+            <hr style="border: 1px solid white;"> <!--Añado una linea de separación con color blanco con ancho de 1pixel-->
+            <ul> <!-- Añado una lista sin numerar-->
+                <li>La Fábrica de Hamburguesas Artesanas S.L.</li><!--Con li listo los elementos de la lista-->
+                <li>910 654 653</li>
+                <li>lafabrica@hamburguesasartesanas.com</li>
+            </ul>
+
+        </footer>
+        </div>
+    </body>
+
+
+
+</html>
